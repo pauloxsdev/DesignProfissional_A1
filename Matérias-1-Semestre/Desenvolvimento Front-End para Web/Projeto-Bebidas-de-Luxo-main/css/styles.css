@@ -1,0 +1,196 @@
+/* Fonte personalizada */
+body {
+  font-family: 'Quicksand', sans-serif; /* Define a fonte principal do site como Quicksand */
+}
+
+/* Navbar refinada */
+.navbar {
+  font-size: 16px; /* Tamanho da fonte da barra de navegação */
+  transition: box-shadow 0.3s ease; /* Transição suave para a sombra ao passar o mouse */
+}
+
+.navbar:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Adiciona sombra à navbar ao passar o mouse */
+}
+
+/* Logomarca */
+.navbar-brand span {
+  font-size: 1.3rem; /* Tamanho da fonte do nome principal da marca */
+  font-weight: 700; /* Peso da fonte em negrito */
+  color: #0d6efd; /* Cor azul padrão do Bootstrap */
+}
+
+.navbar-brand small {
+  font-size: 0.85rem; /* Tamanho menor para o subtítulo da marca */
+  color: #fd7e14; /* Cor laranja vibrante */
+}
+
+/* Imagem da logo */
+.navbar-brand img {
+  transition: transform 0.3s ease; /* Transição suave para transformação da imagem */
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.05); /* Aumenta levemente a imagem ao passar o mouse */
+}
+
+/* Links do menu */
+.nav-link {
+  position: relative; /* Permite posicionamento relativo para pseudo-elementos */
+  padding: 0.5rem 1rem; /* Espaçamento interno dos links */
+  transition: color 0.3s ease; /* Transição suave da cor ao passar o mouse */
+}
+
+.nav-link::after {
+  content: ''; /* Cria um pseudo-elemento vazio para a linha animada */
+  position: absolute; /* Posiciona a linha em relação ao link */
+  width: 0%; /* Começa com largura zero */
+  height: 2px; /* Altura da linha */
+  bottom: 0; /* Posiciona a linha na parte inferior do link */
+  left: 0; /* Alinha à esquerda */
+  background-color: currentColor; /* Usa a cor atual do texto */
+  transition: width 0.3s ease; /* Transição suave da largura da linha */
+}
+
+.nav-link:hover::after {
+  width: 100%; /* Expande a linha para toda a largura do link ao passar o mouse */
+}
+
+
+
+/* Dropdown refinado */
+.dropdown-menu {
+  border-radius: 0.5rem; /* Bordas arredondadas do menu suspenso */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra leve para destacar o menu */
+}
+
+.dropdown-item {
+  transition: background-color 0.2s ease, color 0.2s ease; /* Transição suave de cor e fundo */
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa; /* Fundo claro ao passar o mouse */
+  color: #6f42c1; /* Cor roxa ao passar o mouse */
+}
+
+body {
+  font-family: 'Poppins', sans-serif; /* Altera a fonte para Poppins nesta seção */
+  margin: 0; /* Remove as margens padrão do navegador */
+  background-color: #fefefe; /* Define um fundo quase branco */
+  color: #333; /* Define a cor do texto principal como cinza escuro */
+}
+
+.navbar {
+  background-color: #e0f7e9; /* Define um fundo verde claro específico para esta navbar */
+  padding: 1em 0; /* Adiciona espaçamento vertical interno */
+  border-bottom: 1px solid #cdebdc; /* Cria uma linha sutil na parte inferior */
+}
+
+.logo {
+  font-size: 1.8em; /* Aumenta o tamanho da fonte do logo */
+  color: #2e7d32; /* Define um verde escuro para o texto do logo */
+  margin-left: 1em; /* Adiciona margem à esquerda para separar da borda */
+}
+
+.nav-menu {
+  list-style: none; /* Remove os marcadores (bolinhas) da lista */
+  display: flex; /* Coloca os itens do menu lado a lado */
+  gap: 1em; /* Define o espaço entre os itens do menu */
+  margin-right: 1em; /* Adiciona margem à direita */
+}
+
+.nav-menu a {
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  color: #2e7d32; /* Define a cor verde para os links */
+  font-weight: 500; /* Define a espessura da fonte como média */
+}
+
+.nav-menu a.active {
+  border-bottom: 2px solid #2e7d32; /* Adiciona uma borda inferior para indicar o item ativo */
+}
+
+.main-content {
+  padding: 2em; /* Adiciona espaçamento interno ao redor do conteúdo principal */
+  text-align: center; /* Centraliza o texto e elementos inline */
+}
+
+.produto-img {
+  max-width: 90%; /* Garante que a imagem não ultrapasse 90% da largura da tela */
+  height: auto; /* Mantém a proporção da imagem ao redimensionar */
+  margin-top: 1em; /* Adiciona espaço acima da imagem */
+  border-radius: 12px; /* Arredonda os cantos da imagem */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Adiciona uma sombra suave para dar profundidade */
+}
+
+.footer {
+  background-color: #e0f7e9; /* Fundo verde claro para o rodapé */
+  color: #2e7d32; /* Texto em verde escuro */
+  text-align: center; /* Centraliza o conteúdo do rodapé */
+  padding: 2em 1em; /* Espaçamento interno generoso */
+  margin-top: 3em; /* Empurra o rodapé para baixo, separando do conteúdo */
+  border-top: 1px solid #cdebdc; /* Linha superior sutil para separar do corpo */
+}
+/* Container dos ícones */
+.social-icons {
+    margin: 1.5rem 0;
+    display: flex;        /* Alinha um ao lado do outro */
+    justify-content: center; /* Centraliza na tela */
+    align-items: center;
+    gap: 20px;            /* Espaço entre os ícones */
+}
+
+/* Estilo padrão do ícone */
+.social-icons a {
+    display: inline-block;
+    color: #333;          /* Cor original (cinza escuro) */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Tamanho do desenho SVG */
+.social-icons svg {
+    width: 28px;          /* Largura do ícone */
+    height: 28px;         /* Altura do ícone */
+}
+
+/* Efeito ao passar o mouse (Geral - Sobe um pouquinho) */
+.social-icons a:hover {
+    transform: translateY(-3px); /* Faz o ícone "flutuar" */
+}
+
+/* Cores específicas ao passar o mouse */
+
+/* Instagram (Rosa/Roxo) */
+.social-icons a[aria-label="Instagram"]:hover {
+    color: #C13584; 
+}
+
+/* Facebook (Azul) */
+.social-icons a[aria-label="Facebook"]:hover {
+    color: #1877F2;
+}
+
+/* Twitter (Azul Claro) */
+.social-icons a[aria-label="Twitter"]:hover {
+    color: #1DA1F2;
+}
+
+/* Cor padrão para todos os itens */
+.navbar-nav .nav-link {
+  color: #000 !important; 
+  transition: color 0.3s ease;
+}
+
+/* BLUE AGAVE - hover azul */
+.navbar-nav .nav-link.blue:hover {
+  color: #0d6efd !important;
+}
+
+/* CHATEAU LAFITTE - hover verde */
+.navbar-nav .nav-link.green:hover {
+  color: #198754 !important;
+}
+
+/* KOPI LUWAK - hover vermelho */
+.navbar-nav .nav-link.red:hover {
+  color: #dc3545 !important;
+}
