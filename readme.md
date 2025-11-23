@@ -11,23 +11,6 @@ Este repositório centraliza todas as evidências práticas exigidas para a **Av
 
 ---
 
-## 📂 Organização do Repositório
-A estrutura de arquivos segue o padrão solicitado, facilitando a navegação pelos entregáveis:
-
-```bash
-DesignProfissional_A1
-├── 📄 Curriculo_Latex.pdf          
-├── 📜 Certificado_Evento.pdf       
-├── 📄 Relato_Processo_Seletivo.pdf 
-├── 📂 Portfolio                   
-│   └── README.md
-└── 📂 Repositorios_1Semestre       
-    ├── 🐍 Algoritmos
-    ├── 💻 Desenvolvimento Front-End para Web
-    └── 💾 Modelagem de Banco de Dados
-
-```
-
 ## ✅ Checklist de Entregáveis (A1)
 
 | Item | Descrição | Link de Acesso |
