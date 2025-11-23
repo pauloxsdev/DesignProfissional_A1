@@ -16,17 +16,18 @@ A estrutura de arquivos segue o padrão solicitado, facilitando a navegação pe
 
 ```bash
 DesignProfissional_A1
-├── 📄 Curriculo_Latex.pdf          # Entregável 2
-├── 📜 Certificado_Evento.pdf       # Entregável 1 (Parte B)
-├── 📄 Relato_Processo_Seletivo.pdf # Entregável 1 (Parte A)
-├── 📂 Portfolio                    # Entregável 3
+├── 📄 Curriculo_Latex.pdf          
+├── 📜 Certificado_Evento.pdf       
+├── 📄 Relato_Processo_Seletivo.pdf 
+├── 📂 Portfolio                   
 │   └── README.md
-└── 📂 Repositorios_1Semestre       # Entregável 4
+└── 📂 Repositorios_1Semestre       
     ├── 🐍 Algoritmos
-    ├── 💻 Fundamentos_TI
-    ├── 📐 Matemática
-    └── 🗣️ Comunicação
+    ├── 💻 Desenvolvimento Front-End para Web
+    └── 💾 Modelagem de Banco de Dados
+
 ```
+
 ## ✅ Checklist de Entregáveis (A1)
 
 | Item | Descrição | Link de Acesso |
@@ -40,12 +41,11 @@ DesignProfissional_A1
 
 ## 📚 Repositórios do 1º Semestre
 
-| Disciplina | Temas | Repositório |
+| Disciplina | Temas Principais | Repositório |
 | :--- | :--- | :---: |
-| **Algoritmos** | Python, Lógica | [🔗 Acessar](./Repositorios_1Semestre/Algoritmos) |
-| **Fundamentos TI** | Hardware, SO, Redes | [🔗 Acessar](./Repositorios_1Semestre/Fundamentos_TI) |
-| **Matemática** | Lógica Aplicada | [🔗 Acessar](./Repositorios_1Semestre/Matematica) |
-| **Comunicação** | Soft Skills | [🔗 Acessar](./Repositorios_1Semestre/Comunicacao) |
+| **Algoritmos e Pensamento Computacional** | Lógica e Estruturas | [🔗 Acessar](./Repositorios_1Semestre/Algoritmos) |
+| **Modelagem de Banco De Dados** | SQL, MER e DER | [🔗 Acessar](./Repositorios_1Semestre/Modelagem_BD) |
+| **Desenvolvimento Front-End** | HTML, CSS e JS | [🔗 Acessar](./Repositorios_1Semestre/FrontEnd) |
 
 ---
 *Avaliação A1 - Design Profissional*
