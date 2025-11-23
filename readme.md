@@ -1,5 +1,3 @@
-# Design Profissional - Avaliação A1
-
 # 🎓 Avaliação A1 - Design Profissional
 > **Aluno:** Paulo Rafael da Silva Sales
 
